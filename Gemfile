@@ -11,4 +11,8 @@ gem 'bem'
 gem 'high_voltage'
 gem 'slim-rails'
 
-gem 'spring', :group => :development
+group :development do 
+  gem 'spring'
+  gem 'quiet_assets' 
+  gem 'webrick'
+end
